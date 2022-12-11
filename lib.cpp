@@ -2,12 +2,11 @@
 #include <iostream>
 using namespace std;
 void trovamax(){
-    cout<<"Dimensione: "<<endl;
     int D, max;
     cin>>D;
    int a[D];
     for (int i = 0; i < D; ++i) {
-        cout<<"inserisci numeri: ";
+        
         cin>>a[i];
 
 
@@ -19,5 +18,5 @@ void trovamax(){
         }
 
     }
-    cout<<"massimo: "<<max<<endl;
+    cout<<max<<endl;
 }
