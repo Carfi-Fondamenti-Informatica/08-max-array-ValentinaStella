@@ -1,1 +1,6 @@
 
+#ifndef TROVAMAXARRARY_LIB_H
+#define TROVAMAXARRARY_LIB_H
+void trovamax();
+#endif //TROVAMAXARRARY_LIB_H
+
